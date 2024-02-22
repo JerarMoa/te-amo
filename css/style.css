@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Playpen Sans';
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(../img/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.content-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.medio {
+    margin: 20px 0;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.parraf {
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.parraf a {
+    color: #7cd47c;
+    text-decoration: none;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.continue {
+    text-decoration: none;
+    color: #dfa3df;
+    font-size: 20px;
+    margin: 40px 0 20px 0;
+    background: none;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #c972c9;
+    transition: transform 0.3s ease;
+}
+
+.continue:hover {
+    transform: scale(1.1);
+}
